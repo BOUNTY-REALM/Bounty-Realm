@@ -50,6 +50,10 @@ body {
     color: var(--offblack);
 }
 
+body[data-visible="true"] {
+    overflow: hidden;
+}
+
 body[data-visible="true"]::after {
     width: 100%;
     height: 100%;
@@ -217,6 +221,8 @@ a {
     gap: 5px;
     flex-direction: column;
     padding: 0;
+    width: 100%;
+    outline: 1px dashed red;
 }
 
 .nav-list li {
@@ -224,11 +230,13 @@ a {
     align-items: center;
     list-style: none;
     cursor: pointer;
+    width: 75%;
 }
 
 .nav-list li a {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: .2em;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -285,6 +293,7 @@ a {
     .primary-navigation {
         position: static;
         flex-direction: row;
+        align-items: center;
         transform: none;
         inset: 0;
         background-color: transparent;
@@ -292,11 +301,17 @@ a {
     }
 
     .nav-list {
+        width: auto;
         flex-direction: row;
         gap: 2.781rem;
     }
 
+    .nav-list li {
+        width: auto;
+    }
+
     .nav-list li a {
+        width: auto;
         font-size: 0.75rem;
     }
 
