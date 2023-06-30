@@ -250,7 +250,7 @@ a {
 }
 
 .nav-links {
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .btn-icon {
@@ -310,6 +310,10 @@ a {
 
     .tiny-icons {
         display: none;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
     }
 }
 
