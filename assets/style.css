@@ -222,7 +222,6 @@ a {
     flex-direction: column;
     padding: 0;
     width: 100%;
-    outline: 1px dashed red;
 }
 
 .nav-list li {
