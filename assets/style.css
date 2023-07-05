@@ -635,6 +635,8 @@ a {
 .services-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1.25rem;
     padding-inline: 1.5rem;
 }
@@ -708,6 +710,7 @@ a {
 
     .services-cards {
         flex-direction: row;
+        align-items: unset;
         justify-content: center;
         flex-wrap: wrap;
     }
