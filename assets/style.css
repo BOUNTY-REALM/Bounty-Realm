@@ -178,7 +178,7 @@ a {
     background-image: url(./images/hamburger-close.png);
     /* left: 10%; */
     transform: translate(-50%, -50%) rotate(180deg);
-    inset: 45 % 0 0 10%;
+    inset: 45% 0 0 10%;
 }
 
 #main-shape {
